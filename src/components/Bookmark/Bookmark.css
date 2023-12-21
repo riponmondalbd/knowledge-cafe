@@ -1,0 +1,27 @@
+.time-counter {
+    color: #6047EC;
+    background-color: rgba(96, 71, 236, 0.10);
+    margin-top: 0;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.bookmark-blog-counter {
+    padding: 30px;
+    border-radius: 8px;
+    background-color: #1111110D;
+}
+
+.bookmark-blog-counter h3 {
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.bookmark-blogs {
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+}

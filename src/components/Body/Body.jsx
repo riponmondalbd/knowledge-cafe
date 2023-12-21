@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './Body.css'
 import Article from '../Article/Article';
+import Bookmark from '../Bookmark/Bookmark';
 
 
 const Body = () => {
@@ -21,8 +22,8 @@ const Body = () => {
                     ></Article>)
                 }
             </div>
-            <div className="bookmark-container">
-                <h5>Bookmark</h5>
+            <div className="bookmark-section">
+                <Bookmark></Bookmark>
             </div>
         </div>
     );
