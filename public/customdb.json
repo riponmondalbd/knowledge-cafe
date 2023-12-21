@@ -6,6 +6,7 @@
         "name": "Fisher Reyes",
         "blogTitle": "Aliquip duis dolore deserunt non aliquip et elit cillum culpa\r\n",
         "date": "2015-12-06",
+        "time": 20,
         "tags": [
             "consectetur",
             "Lorem"
@@ -18,6 +19,7 @@
         "name": "Stewart Cruz",
         "blogTitle": "Est ullamco aliqua officia adipisicing culpa elit ea ipsum\r\n",
         "date": "2014-05-29",
+        "time": 5,
         "tags": [
             "velit",
             "eu"
@@ -30,6 +32,7 @@
         "name": "Wilson Gamble",
         "blogTitle": "Incididunt incididunt voluptate proident ullamco do magna\r\n",
         "date": "2016-09-11",
+        "time": 10,
         "tags": [
             "esse",
             "tempor"
@@ -42,6 +45,7 @@
         "name": "Lynette Dawson",
         "blogTitle": "Irure mollit ut culpa elit consequat id magna ex sit nulla ex cupidatat\r\n",
         "date": "2018-12-03",
+        "time": 15,
         "tags": [
             "ipsum",
             "est"
