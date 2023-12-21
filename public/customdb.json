@@ -8,8 +8,8 @@
         "date": "2015-12-06",
         "time": 20,
         "tags": [
-            "consectetur",
-            "Lorem"
+            "#consectetur\n",
+            "#Lorem"
         ]
     },
     {
@@ -21,8 +21,8 @@
         "date": "2014-05-29",
         "time": 5,
         "tags": [
-            "velit",
-            "eu"
+            "#velit\n",
+            "#eu"
         ]
     },
     {
@@ -34,8 +34,8 @@
         "date": "2016-09-11",
         "time": 10,
         "tags": [
-            "esse",
-            "tempor"
+            "#esse\n",
+            "#tempor"
         ]
     },
     {
@@ -47,8 +47,8 @@
         "date": "2018-12-03",
         "time": 15,
         "tags": [
-            "ipsum",
-            "est"
+            "#ipsum\n",
+            "#est"
         ]
     }
 ]
