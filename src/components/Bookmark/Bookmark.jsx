@@ -17,14 +17,11 @@ const Bookmark = (props) => {
             </div>
             <div className='bookmark-blog-counter'>
                 <h3>Bookmarked Blogs :{bookmark.length} </h3>
-
-                {/* <div className='bookmark-blogs'> */}
                 {
                     bookmark.map(article => (
                         <p key={article.id}>{article.blogTitle}</p>
                     ))
                 }
-                {/* </div> */}
 
 
             </div>

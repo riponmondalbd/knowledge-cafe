@@ -16,8 +16,6 @@ const Body = () => {
     }, [])
 
     const boockmarkHandler = (article) => {
-        // const newBookmark = [...bookmark, article];
-        // setBookmark(newBookmark);
         let newBookmark = [];
         const exists = bookmark.find(blog => blog.id === article.id);
         if (!exists) {
