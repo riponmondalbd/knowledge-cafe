@@ -5,8 +5,8 @@ const Article = (props) => {
     const { blogPicture, authorPicture, name, blogTitle, date, time, tags } = props.article;
 
     return (
-        <div>
-            <img src={blogPicture} alt="" />
+        <div className='article-container'>
+            <img className='blog-thumb' src={blogPicture} alt="" />
             <div className="blog-details">
                 <img src={authorPicture} alt="" />
                 <div className="author-name-date">
