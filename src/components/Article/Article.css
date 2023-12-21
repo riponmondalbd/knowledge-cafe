@@ -1,4 +1,39 @@
 .blog-thumb {
-    width: 845px;
+    width: 855px;
     border-radius: 8px;
+}
+
+.blog-details,
+.author-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+.author-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    margin-right: 24px;
+}
+
+.author-name-date h3,
+p {
+    margin: 0;
+}
+
+.blog-title {
+    margin: 16px 0 16px 0;
+}
+
+.btn-make-read {
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    margin: 21px 0 38px 0;
+}
+
+.hr-devider {
+    margin-bottom: 40px;
 }

@@ -6,19 +6,28 @@ const Article = (props) => {
 
     return (
         <div className='article-container'>
+            {/* blog thumbnail */}
             <img className='blog-thumb' src={blogPicture} alt="" />
+
+            {/* author details */}
             <div className="blog-details">
-                <img src={authorPicture} alt="" />
-                <div className="author-name-date">
-                    <h3>{name}</h3>
-                    <p>{date}</p>
+                <div className="author-details">
+                    <img className='author-image' src={authorPicture} alt="" />
+                    <div className="author-name-date">
+                        <h3>{name}</h3>
+                        <p>{date}</p>
+                    </div>
                 </div>
                 <div className="read-time">
                     <p>{time} min read</p>
                 </div>
             </div>
-            <h2>{blogTitle}</h2>
+
+            {/* blog title */}
+            <h2 className='blog-title'>{blogTitle}</h2>
             <p>{tags}</p>
+            <button className='btn-make-read'>Make as read</button>
+            <hr className='hr-devider' />
         </div>
     );
 };
