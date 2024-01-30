@@ -10,7 +10,7 @@
 }
 
 .bookmark-blog-counter {
-    padding: 30px;
+    padding: 30px 30px 10px 30px;
     border-radius: 8px;
     background-color: #1111110D;
 }
@@ -24,4 +24,5 @@
     padding: 20px;
     background-color: white;
     border-radius: 8px;
+    margin-bottom: 20px;
 }

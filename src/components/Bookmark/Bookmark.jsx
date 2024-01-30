@@ -1,9 +1,9 @@
 import React from 'react';
 import './Bookmark.css'
 
-const Bookmark = (props) => {
-    const bookmark = props.bookmark;
-    const time = props.time;
+const Bookmark = ({ time, bookmark }) => {
+    // const bookmark = props.bookmark;
+    // const time = props.time;
 
     let totalReadTime = 0;
     for (const read of time) {
