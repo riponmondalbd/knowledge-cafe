@@ -7,4 +7,7 @@
 
 .bookmark-section {
     width: 411px;
+    height: 700px;
+    position: sticky;
+    top: 0;
 }
